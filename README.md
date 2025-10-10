@@ -3,12 +3,16 @@ Dit is de startversie voor studenten voor sprint 5.
  
 UC15 Toevoegen THT datum aan product is compleet.  
 
-UC14 Toevoegen prijzen:  
-- Prijs toevoegen aan product class en uitbreiden constructor chain.  
-- ProductRepository --> prijsveld vullen met waarden.  
-- ProductView uitbreiden met kolom voor de prijs (header en inhoud van de tabel).      
+UC14 Toevoegen prijzen aan product is compleet: 
+
+- Prijs toegevoegd aan product class en constructor chain uitgebreid.  
+- ProductRepository --> prijsveld ingevuld met waarden.  
+- ProductView uitgebreid met kolom voor de prijs (header en inhoud van de tabel).      
 
 UC12 Productcategoriën toevoegen --> zelfstandig uitwerken:  
+
+Deze use-case is niet uitgewerkt deze sprint.
+
 Ontwerp:
 >```mermaid
 >classDiagram
