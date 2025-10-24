@@ -22,7 +22,7 @@ namespace Grocery.Core.Services
 
 		public Category? Get(int id)
 		{
-			return _CategoryRepository.Get();
+			return _CategoryRepository.Get(id);
 		}
 	}
 }
