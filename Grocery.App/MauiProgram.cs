@@ -6,6 +6,7 @@ using Grocery.Core.Interfaces.Services;
 using Grocery.Core.Interfaces.Repositories;
 using Grocery.Core.Data.Repositories;
 using CommunityToolkit.Maui;
+//using Java.Security.Cert;
 
 namespace Grocery.App
 {
@@ -39,6 +40,7 @@ namespace Grocery.App
             builder.Services.AddSingleton<IProductRepository, ProductRepository>();
             builder.Services.AddSingleton<IClientRepository, ClientRepository>();
             builder.Services.AddSingleton<GlobalViewModel>();
+           
 
             builder.Services.AddTransient<GroceryListsView>().AddTransient<GroceryListViewModel>();
             builder.Services.AddTransient<GroceryListItemsView>().AddTransient<GroceryListItemsViewModel>();
